@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="2" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47625" started-at="2017-09-18T15:52:20Z" finished-at="2017-09-18T15:53:08Z">
+  <suite name="Default suite" duration-ms="47573" started-at="2017-10-28T13:56:27Z" finished-at="2017-10-28T13:57:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47625" started-at="2017-09-18T15:52:20Z" finished-at="2017-09-18T15:53:08Z">
+    <test name="Default test" duration-ms="47573" started-at="2017-10-28T13:56:27Z" finished-at="2017-10-28T13:57:14Z">
       <class name="SCB.SCM_Automation.TestCase5">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="initialize" is-config="true" duration-ms="242" started-at="2017-09-18T21:22:20Z" finished-at="2017-09-18T21:22:20Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="initialize" is-config="true" duration-ms="200" started-at="2017-10-28T19:26:27Z" finished-at="2017-10-28T19:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="precondition(java.lang.reflect.Method)[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="precondition" is-config="true" duration-ms="14501" started-at="2017-09-18T21:22:20Z" finished-at="2017-09-18T21:22:35Z">
+        <test-method status="PASS" signature="precondition(java.lang.reflect.Method)[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="precondition" is-config="true" duration-ms="13307" started-at="2017-10-28T19:26:27Z" finished-at="2017-10-28T19:26:40Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method status="FAIL" signature="Test_case_1()[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="Test_case_1" duration-ms="6875" started-at="2017-09-18T21:22:35Z" finished-at="2017-09-18T21:22:42Z">
+        <test-method status="FAIL" signature="Test_case_1()[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="Test_case_1" duration-ms="7238" started-at="2017-10-28T19:26:40Z" finished-at="2017-10-28T19:26:48Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Thank you for your registration] but found [Error: Username already exists]]]>
@@ -67,18 +67,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_case_1 -->
-        <test-method status="PASS" signature="Reporter(org.testng.ITestResult)[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="Reporter" is-config="true" duration-ms="776" started-at="2017-09-18T21:22:42Z" finished-at="2017-09-18T21:22:43Z">
+        <test-method status="PASS" signature="Reporter(org.testng.ITestResult)[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="Reporter" is-config="true" duration-ms="330" started-at="2017-10-28T19:26:48Z" finished-at="2017-10-28T19:26:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_case_1 status=FAILURE method=TestCase5.Test_case_1()[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350] output={null}]]]>
+                <![CDATA[[TestResult name=Test_case_1 status=FAILURE method=TestCase5.Test_case_1()[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reporter -->
-        <test-method status="PASS" signature="precondition(java.lang.reflect.Method)[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="precondition" is-config="true" duration-ms="12329" started-at="2017-09-18T21:22:43Z" finished-at="2017-09-18T21:22:55Z">
+        <test-method status="PASS" signature="precondition(java.lang.reflect.Method)[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="precondition" is-config="true" duration-ms="11738" started-at="2017-10-28T19:26:48Z" finished-at="2017-10-28T19:27:00Z">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method status="SKIP" signature="testCase_2()[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="testCase_2" duration-ms="2" started-at="2017-09-18T21:22:55Z" finished-at="2017-09-18T21:22:55Z">
+        <test-method status="SKIP" signature="testCase_2()[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="testCase_2" duration-ms="2" started-at="2017-10-28T19:27:00Z" finished-at="2017-10-28T19:27:00Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[This test case is skipped]]>
@@ -128,18 +128,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase_2 -->
-        <test-method status="PASS" signature="Reporter(org.testng.ITestResult)[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="Reporter" is-config="true" duration-ms="21" started-at="2017-09-18T21:22:55Z" finished-at="2017-09-18T21:22:55Z">
+        <test-method status="PASS" signature="Reporter(org.testng.ITestResult)[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="Reporter" is-config="true" duration-ms="15" started-at="2017-10-28T19:27:00Z" finished-at="2017-10-28T19:27:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCase_2 status=SKIP method=TestCase5.testCase_2()[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350] output={null}]]]>
+                <![CDATA[[TestResult name=testCase_2 status=SKIP method=TestCase5.testCase_2()[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reporter -->
-        <test-method status="PASS" signature="precondition(java.lang.reflect.Method)[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="precondition" is-config="true" duration-ms="11612" started-at="2017-09-18T21:22:55Z" finished-at="2017-09-18T21:23:07Z">
+        <test-method status="PASS" signature="precondition(java.lang.reflect.Method)[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="precondition" is-config="true" duration-ms="13937" started-at="2017-10-28T19:27:00Z" finished-at="2017-10-28T19:27:14Z">
           <params>
             <param index="0">
               <value>
@@ -150,7 +150,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method status="FAIL" signature="testCase_3()[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="testCase_3" duration-ms="1" started-at="2017-09-18T21:23:07Z" finished-at="2017-09-18T21:23:07Z">
+        <test-method status="FAIL" signature="testCase_3()[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="testCase_3" duration-ms="1" started-at="2017-10-28T19:27:14Z" finished-at="2017-10-28T19:27:14Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -193,18 +193,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase_3 -->
-        <test-method status="PASS" signature="Reporter(org.testng.ITestResult)[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="Reporter" is-config="true" duration-ms="345" started-at="2017-09-18T21:23:07Z" finished-at="2017-09-18T21:23:07Z">
+        <test-method status="PASS" signature="Reporter(org.testng.ITestResult)[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="Reporter" is-config="true" duration-ms="285" started-at="2017-10-28T19:27:14Z" finished-at="2017-10-28T19:27:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCase_3 status=FAILURE method=TestCase5.testCase_3()[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350] output={null}]]]>
+                <![CDATA[[TestResult name=testCase_3 status=FAILURE method=TestCase5.testCase_3()[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reporter -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SCB.SCM_Automation.TestCase5@8e7350]" name="tearDown" is-config="true" duration-ms="890" started-at="2017-09-18T21:23:07Z" finished-at="2017-09-18T21:23:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SCB.SCM_Automation.TestCase5@ebc39e]" name="tearDown" is-config="true" duration-ms="496" started-at="2017-10-28T19:27:14Z" finished-at="2017-10-28T19:27:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

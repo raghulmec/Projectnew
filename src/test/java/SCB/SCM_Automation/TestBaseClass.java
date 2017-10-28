@@ -16,7 +16,7 @@ public class TestBaseClass {
 	 @BeforeSuite	
 	 public Properties LoadConfigProperties() throws IOException{
 	        
-	       File propFile = new File(System.getProperty("user.dir")+"\\src\\test\\java\\Config\\config.properties" );
+	       File propFile = new File("C:\\Users\\RaghulBE\\Downloads\\workspace_old_new\\workspace\\workspace\\SCB\\SCM_Automation\\src\\test\\java\\Config\\config.properties " );
 		
 	       FileInputStream fileInput = null;
 	        try{
